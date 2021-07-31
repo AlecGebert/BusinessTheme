@@ -1,0 +1,533 @@
+/*body {
+	background: #515151;
+}
+#wrapper {
+	background: #ffffff;
+}*/
+#header {
+	width: 1700px;
+	height: 95px;
+	margin: auto;
+	/*border: 1px solid black;*/
+}
+#logo {
+	width: 50px;
+	height: 50px;
+	margin-left: 250px;
+	margin-top: 20px;
+	float: left;
+}
+#height {
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-right: 280px;
+	float: right;
+	list-style: none;
+}
+.tuda {
+	text-decoration: none;
+	font-size: 15px;
+	color: #636773;
+    font-weight: 500;
+}
+.nav {
+    /*width: 115px;*/
+    height: 20px;
+    /*border: 1px solid black;*/
+    padding: 10px;
+    
+}
+.tuda:hover {
+	background: #f5c449;
+}
+li:hover {
+	background: #f5c449;
+	cursor: pointer;
+	}/*End of header*/
+#banner {
+	width: 1700px;
+	height: 680px;
+	margin: auto;
+	background: #8eb8e8;
+
+}
+#boots {
+	text-align: center;
+	font-size: 32px;
+	color: #ffffff;
+	padding-top: 65px;
+	margin-bottom: 10px; 
+}
+#sub {
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 0px;
+}
+form {
+	margin-left: 305px;
+	margin-top: 40px;
+	height: 60px;
+}
+input[type="text"] {
+	width: 280px;
+	height: 45px;
+	border-radius: 5px;
+	border: none;
+	color: #4f555c;
+}
+input[type="email"] {
+	width: 280px;
+	height: 45px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: none;
+	color: #4f555c;
+}
+input[type="tel"] {
+	width: 280px;
+	height: 45px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: none;
+	color: #4f555c;
+}
+#btn {
+	width: 280px;
+	height: 50px;
+	margin-left: 10px;
+	background: #f5c449;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+    color: #4f555c;
+}
+#nout {
+	margin-left: 600px;
+	margin-top: -20px;
+	position: absolute;
+}
+#barista {
+	width: 345px;
+	height: 220px;
+	position: relative;
+    left: 684px;
+    top: 110px;
+}/*End of banner*/
+#service {
+    width: 1700px;
+    height: 850px;
+    margin: auto;
+}
+#our{
+	padding-top: 100px;
+	text-align: center;
+	color: #2e3136;
+}
+#suby {
+	text-align: center;
+	font-size: 20px;
+	color: #2e3136;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 40px;
+}
+.absaz {
+	width: 550px;
+	height: 100px;
+	margin-top: 80px;
+}
+#cover {
+	width: 1300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.podsag {
+	text-align: left;
+	font-size: 16px;
+	color: #2e3136;
+	line-height: 25px;
+	margin-left: 80px;
+}/*End of service*/
+#about {
+	width: 1700px;
+	height: 715px;
+	margin: auto;
+	padding-bottom: 0px;
+	display: flex;
+}
+#table {
+	width: 950px;
+	height: 715px;
+	background-image: url(https://poradnik.pkt.pl/wp-content/uploads/bez-kategorii/notes.jpg);
+}
+#content {
+	width: 750px;
+	height: 620px;
+	background: #f5bd4e;
+	margin-top: 30px;
+}
+#us{
+	text-align: left;
+	color: #ffffff;
+	margin-left: 30px;
+	margin-top: 160px;
+}
+#read {
+	color: #ffffff;
+	width: 500px;
+	margin-left: 30px;
+	font-size: 16px;
+	line-height: 25px;
+}
+#more {
+	width: 145px;
+	height: 50px;
+	color: #ffffff;
+	background: #d6a645;
+	border: none;
+	margin-top: 35px;
+	margin-left: 30px;
+	cursor: pointer;
+}/*End of about*/
+#price {
+	width: 1700px;
+	height: 935px;
+	margin: auto;
+	margin-top: -86px;
+	background: #e6e4ed;
+}
+#choose {
+	padding-top: 140px;
+	text-align: center;
+	color: #2e3136;
+}
+#dummy {
+	text-align: center;
+	font-size: 20px;
+	color: #2e3136;
+}
+.plan {
+	width: 390px;
+	height: 480px;
+	margin-top: 50px;
+	background: #ffffff;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.top {
+	width: 210px;
+	height: 150px;
+	margin: auto;
+	padding-top: 40px;
+}
+.head {
+	font-weight: 300; 
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #636773;
+}
+.money {
+	font-size: 56px;
+	text-align: center;
+	margin-top: 0px;
+	color: #f5bd4e;
+	margin-bottom: 0px;
+}
+.month {
+	font-weight: 300; 
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0px;
+	color: #636773;
+}
+.links {
+	width: 325px;
+	height: 125px;
+	list-style: none;
+	margin-top: 35px;
+}
+.punkt {
+	width: 320px;
+	height: 30px;
+	text-align: center;
+	border-top: 0.12px solid #636773;
+	padding-top: 15px;
+}
+.ey {
+    text-decoration: none;
+	font-size: 15px;
+	color: #636773;
+    font-weight: 500;
+}
+.get {
+	width: 130px;
+	height: 35px;
+	color: #ffffff;
+	background: #d6a645;
+	border: none;
+	margin-top: 30px;
+	margin-left: 125px;
+	cursor: pointer;
+}
+#plans {
+	display: flex;
+	justify-content: center;
+}
+#premium {
+	width: 395px;
+	height: 510px;
+	margin-top: 35px;
+	background: #6d9ade;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+#heads {
+	font-weight: 300; 
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+#months {
+	font-weight: 300; 
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0px;
+	color: #ffffff;
+}
+.punkts {
+	width: 320px;
+	height: 30px;
+	text-align: center;
+	border-top: 0.12px solid #ffffff;
+	padding-top: 15px;
+}
+.eys {
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+    font-weight: 500;
+}/*End а price*/
+.iconica {
+	width: 70px;
+	height: 70px;
+	margin-left: 110px;
+}
+#works {
+	width: 1700px;
+	height: 960px;
+	margin: auto;
+}
+#howit {
+	padding-top: 100px;
+	text-align: center;
+	color: #2e3136;
+}
+#paragraf {
+	text-align: center;
+	font-size: 20px;
+	color: #2e3136;
+}
+#steps {
+	width: 1400px;
+	height: 400px;
+	margin: auto;
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+.step {
+	width: 290px;
+	height: 330px;
+}
+.up {
+	text-align: center;
+	color: #2e3136;
+	font-weight: 200px;
+	margin-top: 100px;
+}
+.down {
+	/*width: 220px;*/
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: #2e3136;
+}
+#start {
+	width: 165px;
+	height: 50px;
+	color: #ffffff;
+	background: #d6a645;
+	border: none;
+	margin-top: 50px;
+	margin-left: 770px;
+	cursor: pointer;
+}/*End how it works*/
+.celeb {
+	width: 155px;
+	height: 155px;
+    box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+	padding: 45px 30px;
+	border-radius: 10px;
+	float: left;
+}
+#feedback {
+	width: 1700px;
+	height: 900px;
+	margin: auto;
+	background: #d6a645;
+}
+#happy {
+	padding-top: 140px;
+	text-align: center;
+	color: #ffffff;
+}
+#weare {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+.client {
+	width: 570px;
+	height: 250px;
+	background: #ffffff;
+	border-radius: 10px;
+}
+#both {
+	width: 1170px;
+	height: 505px;
+	padding-top: 50px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.describe {
+	text-align: center;
+	font-size: 16px;
+	color: #2e3136;
+	padding: 50px 30px;
+	line-height: 20px;
+}
+.sign {
+	margin-top: -20px;
+	color: #d6a645;
+	text-align: center;
+}/*End of clients*/
+#newsletter {
+	width: 1700px;
+	height: 1070px;
+	margin: auto;
+	border-bottom: 1px solid #636773;
+}
+#news {
+    padding-top: 100px;
+	text-align: center;
+	color: #2e3136;
+}
+#letter {
+    text-align: center;
+	font-size: 20px;
+	color: #2e3136;
+}
+#last{
+	margin-top: 60px;
+	margin-left: 400px;
+}
+#card {
+	width: 1700px;
+	height: 650px;
+	margin: auto;
+	margin-top: 0px;
+	background-image: url(https://addendum.es/wp-content/uploads/2019/05/world-map-dots.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 150px;
+	
+}
+#address {
+	width: 280px;
+	height: 280px;
+	border-radius: 140px;
+	background: #2e3136;
+	margin-left: 700px;
+}
+#topcircle {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 35px;
+}
+#lowcircle {
+	color: #ffffff;
+	text-align: center;
+	line-height: 25px;
+}
+#mail {
+	color: #d6a645;
+	text-align: center;
+}/*End of newsletter*/
+#contacts {
+	width: 1700px;
+	height: 220px;
+	margin: auto;
+}
+#under {
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 65px;
+	margin-left: 400px;
+	/*float: right;*/
+	list-style: none;
+}
+.navig {
+	/*width: 115px;*/
+    height: 20px;
+    /*border: 1px solid black;*/
+    padding: 10px;
+}
+.suda {
+	text-decoration: none;
+	font-size: 15px;
+	color: #636773;
+    font-weight: 500;
+}
+#pipe {
+	width: 20px;
+	height: 20px;
+	margin-left: 790px;
+	margin-top: 30px;
+}
+#phone {
+	text-decoration: none;
+	font-size: 20px;
+	color: #636773;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.media {
+	width: 30px;
+	height: 30px;
+	padding-left: 20px;
+}
+#social {
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 750px;
+}/*End of contacts*/
+#footer {
+	width: 1700px;
+	height: 35px;
+	margin: auto;
+	background: #6d9ade;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+}
