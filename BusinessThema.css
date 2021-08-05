@@ -1,14 +1,14 @@
-/*body {
-	background: #515151;
+body {
+	min-width: 1700px;
 }
 #wrapper {
-	background: #ffffff;
-}*/
+	margin: 0 auto;
+	width: 1700px;
+}
 #header {
 	width: 1700px;
 	height: 95px;
 	margin: auto;
-	/*border: 1px solid black;*/
 }
 #logo {
 	width: 50px;
